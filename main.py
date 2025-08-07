@@ -38,6 +38,7 @@ def main():
         
         
         elif(command == 6):
+            print("Goodbye! Exiting the task manager.")
             break
 
         else:
