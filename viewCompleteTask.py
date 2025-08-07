@@ -1,11 +1,11 @@
 import json
 from utils import returnToHome
 
-def viewAllTask():
-   
+def viewCompleteTask():
+    
     with open("tasks.json", "r") as file:
         data = json.load(file)
-    
-    print(data["tasks"])
+        for task in data["tasks"]:
+            if task["status"] == True:
+                print(task)
     returnToHome()
-
