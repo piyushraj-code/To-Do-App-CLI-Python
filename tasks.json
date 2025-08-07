@@ -7,6 +7,14 @@
         {
             "task": "Bring Banana",
             "status": false
+        },
+        {
+            "task": "Bring Apple",
+            "status": true
+        },
+        {
+            "task": "Make food",
+            "status": true
         }
     ]
 }
