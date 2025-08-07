@@ -1,7 +1,7 @@
 import json
 from utils import returnToHome
 
-def viewCompleteTask():
+def viewIncompleteTask():
     
     with open("tasks.json", "r") as file:
         data = json.load(file)
