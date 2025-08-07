@@ -26,7 +26,14 @@ A simple and interactive **Command-Line Interface (CLI)** based Task Manager bui
 ## 📂 Project Structure
 
 ```
-task_manager.py     # Main application file
+main.py     # Main application file
+interface.py - Displays animated menu with options 1-6
+addTask.py - Adds new tasks to JSON file with status
+completeTask.py - Marks existing tasks as complete in JSON
+viewAllTask.py - Displays all tasks regardless of completion status
+viewCompleteTask.py - Shows only completed tasks (status: true)
+viewIncompleteTask.py - Shows only incomplete tasks (status: false)
+utils.py - Contains countdown function for returning to menu
 tasks.json          # JSON file to store tasks (auto-created on first run)
 ```
 
@@ -89,11 +96,6 @@ Returning to home in 3 2 1
 
 ---
 
-## 📜 License
-
-This project is free to use and modify under the **MIT License**.
-
----
 
 ## 🙌 Author
 
