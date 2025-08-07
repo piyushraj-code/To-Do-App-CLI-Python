@@ -1,0 +1,12 @@
+{
+    "tasks": [
+        {
+            "task": "Make Tea",
+            "status": true
+        },
+        {
+            "task": "Bring Banana",
+            "status": false
+        }
+    ]
+}
